@@ -23,7 +23,8 @@ Implement the Monte Carlo method to estimate state values.
 ## Step 5:
 Compare Q-Learning policy and state values with Monte Carlo results for the given RL environment.
 
-## Q LEARNING FUNCTION
+## Q LEARNING FUNCTION:
+
 ```
 def q_learning(env,
                gamma=1.0,
@@ -65,6 +66,7 @@ def q_learning(env,
 ```
 
 ## OUTPUT:
+
 ## Optimal State Value Functions:
 ![image](https://github.com/Saibandhavi75/q-learning/assets/94208895/59e215d5-b8c2-4393-8046-56091cfd8190)
 ## Optimal Action Value Functions:
@@ -77,4 +79,5 @@ def q_learning(env,
 
 
 ## RESULT:
+
 Thus, Q-Learning outperformed Monte Carlo in finding the optimal policy and state values for the RL problem.
